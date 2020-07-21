@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav from './Nav/Nav';
 
-function App() {
+const App = () => {
     return (
-        <div className="container">
-            <h1>This is a react file being server by a php framework! neat!</h1>
-        </div>
+        <>
+            <Nav />
+        </>
     );
 }
 

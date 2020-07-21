@@ -4,6 +4,7 @@ import Logo from "../../../img/Logo.png";
 
 const Nav = () => {
     return (
+        
         <nav>
             <div className="navbar">
                 <img className="navLogo" src={Logo} alt="Logo Image" />

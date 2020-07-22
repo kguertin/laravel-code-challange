@@ -6329,6 +6329,25 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/Footer.scss":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/Footer.scss ***!
+  \***********************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".footer {\n  height: 100px;\n  background: #00166e;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n}\n.footer .footer-text {\n  color: #f4f4f4;\n  margin-left: 1.6rem;\n}\n.footer .footer-text .footer-links {\n  cursor: pointer;\n}\n.footer .footer-text .footer-links a {\n  color: #ff6600;\n  margin: 0 0.3rem;\n  text-decoration: none;\n}\n.footer .footer-text .footer-links a:hover {\n  color: #f4f4f4;\n}\n.footer .footer-social-icons {\n  margin-right: 2rem;\n}\n.footer .footer-social-icons i {\n  color: #f4f4f4;\n  font-size: 2rem;\n  margin: 0 0.5rem;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/Hero.scss":
 /*!*********************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./resources/sass/Hero.scss ***!
@@ -6361,7 +6380,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "nav {\n  position: -webkit-sticky;\n  position: sticky;\n  top: 0;\n  background: #fff;\n}\n\n.navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: top;\n  height: 120px;\n  padding: 0 1.6rem;\n}\n.navbar .navLogo {\n  width: 150px;\n  height: 100px;\n}\n.navbar .navLinks {\n  display: flex;\n}\n.navbar .navLinks .navItem {\n  color: #444;\n  list-style: none;\n  cursor: pointer;\n  font-size: 1.6rem;\n  margin: 1.2rem;\n}\n.navbar .navLinks .navItem:hover {\n  color: #00166e;\n}", ""]);
+exports.push([module.i, "nav {\n  position: -webkit-sticky;\n  position: sticky;\n  top: 0;\n  background: #fff;\n}\n\n.navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: top;\n  height: 120px;\n  padding: 1rem 1.6rem 0 0;\n}\n.navbar .navLogo {\n  width: 150px;\n  height: 100px;\n}\n.navbar .navLinks {\n  display: flex;\n}\n.navbar .navLinks .navItem {\n  color: #444;\n  list-style: none;\n  cursor: pointer;\n  font-size: 1.6rem;\n  margin: 1.2rem;\n}\n.navbar .navLinks .navItem:hover {\n  color: #00166e;\n}", ""]);
 
 // exports
 
@@ -66580,18 +66599,33 @@ if (document.getElementById('root')) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _sass_Footer_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../sass/Footer.scss */ "./resources/sass/Footer.scss");
+/* harmony import */ var _sass_Footer_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_sass_Footer_scss__WEBPACK_IMPORTED_MODULE_1__);
+
 
 
 var Footer = function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer"
-  }, "\\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "footer-text"
   }, "\xA92013-2016 BeMo Academic Consulting Inc. All rights reserved. ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "footer-links"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Disclaimer  Privacy Policy"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", null, "Contact Us"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Disclaimer & Privacy Policy"), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, "Contact Us"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer-social-icons"
-  }));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-facebook-square"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "#"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fab fa-twitter-square"
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -66668,6 +66702,36 @@ var Nav = function Nav() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Nav);
+
+/***/ }),
+
+/***/ "./resources/sass/Footer.scss":
+/*!************************************!*\
+  !*** ./resources/sass/Footer.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../node_modules/css-loader!../../node_modules/postcss-loader/src??ref--7-2!../../node_modules/sass-loader/dist/cjs.js??ref--7-3!./Footer.scss */ "./node_modules/css-loader/index.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./resources/sass/Footer.scss");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
 
 /***/ }),
 

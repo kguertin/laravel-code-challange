@@ -6361,7 +6361,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: top;\n  height: 120px;\n  padding: 0 1.6rem;\n}\n.navbar .navLogo {\n  width: 150px;\n  height: 100px;\n}\n.navbar .navLinks {\n  display: flex;\n}\n.navbar .navLinks .navItem {\n  color: #444;\n  list-style: none;\n  cursor: pointer;\n  font-size: 1.6rem;\n  margin: 1.2rem;\n}\n.navbar .navLinks .navItem:hover {\n  color: #00166e;\n}", ""]);
+exports.push([module.i, "nav {\n  position: -webkit-sticky;\n  position: sticky;\n  top: 0;\n  background: #fff;\n}\n\n.navbar {\n  display: flex;\n  justify-content: space-between;\n  align-items: top;\n  height: 120px;\n  padding: 0 1.6rem;\n}\n.navbar .navLogo {\n  width: 150px;\n  height: 100px;\n}\n.navbar .navLinks {\n  display: flex;\n}\n.navbar .navLinks .navItem {\n  color: #444;\n  list-style: none;\n  cursor: pointer;\n  font-size: 1.6rem;\n  margin: 1.2rem;\n}\n.navbar .navLinks .navItem:hover {\n  color: #00166e;\n}", ""]);
 
 // exports
 
